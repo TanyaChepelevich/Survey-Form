@@ -1,0 +1,59 @@
+body {
+  font-family:  'Poppins', sans-serif;
+  font-size: 18px;
+  width: 100%;
+  margin: 0;
+  background-image: linear-gradient(to right, rgba(80, 87, 122, 0.90), rgba(107, 114, 142, 0.90)),
+   url('https://img.freepik.com/premium-photo/group-happy-young-business-people-meeting-office_484651-17111.jpg?w=2000');
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: rgb(255, 255, 255);
+
+}
+h1, p {
+  text-align: center;
+}
+form {
+  width: 45%;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: rgba(64, 66, 88, 0.9);
+  border-radius: 2px;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 100%;
+  padding: 6px 12px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bock, label, select {
+  display: block;
+}
+ input[type="radio"], input[type="checkbox"] {
+   width: unset;
+   margin-right: 15px;
+   margin-bottom: 10px;
+   vertical-align: middle;
+ }
+ fieldset {
+   margin: 0 0 25px 0;
+   border: none;
+ }
+ legend {
+   margin-bottom: 10px;
+ }
+ button {
+   background-color: #37af65;
+   border-radius: 2px;
+   padding: 10px;
+   border: none;
+   margin-top: 10px;
+   font-size: inherit;
+ }
+label[for="role"], label[for="name"], label[for="email"], label[for="number"] {
+  margin: 10px 0;
+}
